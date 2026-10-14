@@ -1,0 +1,148 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hi",
+                "hello",
+                "hey",
+                "good morning",
+                "good evening"
+            ],
+            "responses": [
+                "Hello! How can I help you?",
+                "Hi! Nice to meet you.",
+                "Hey! What can I do for you?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "bye",
+                "goodbye",
+                "see you",
+                "see you later"
+            ],
+            "responses": [
+                "Goodbye! Have a great day.",
+                "See you later!",
+                "Bye! Take care."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "thanks",
+                "thank you",
+                "thank you so much"
+            ],
+            "responses": [
+                "You're welcome!",
+                "Happy to help!",
+                "No problem!"
+            ]
+        },
+        {
+            "tag": "bot_name",
+            "patterns": [
+                "what is your name",
+                "whats your name",
+                "who are you"
+            ],
+            "responses": [
+                "I am a simple AI Chatbot created using Python.",
+                "You can call me AI Chatbot."
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "how old are you",
+                "what is your age"
+            ],
+            "responses": [
+                "I am a computer program, so I do not have a real age."
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "help",
+                "can you help me",
+                "i need help",
+                "support"
+            ],
+            "responses": [
+                "Sure! You can ask me about greetings, time, weather, jokes, college, programming, and more."
+            ]
+        },
+        {
+            "tag": "weather",
+            "patterns": [
+                "weather",
+                "how is the weather",
+                "weather today"
+            ],
+            "responses": [
+                "I cannot access live weather in this offline version, but I can still help with general questions."
+            ]
+        },
+        {
+            "tag": "time",
+            "patterns": [
+                "time",
+                "what time is it",
+                "tell me the time"
+            ],
+            "responses": [
+                "I can tell you the current system time."
+            ]
+        },
+        {
+            "tag": "joke",
+            "patterns": [
+                "joke",
+                "tell me a joke",
+                "make me laugh"
+            ],
+            "responses": [
+                "Why do programmers prefer dark mode? Because light attracts bugs!",
+                "Why did the computer go to the doctor? Because it had a virus!"
+            ]
+        },
+        {
+            "tag": "college",
+            "patterns": [
+                "college",
+                "admission",
+                "course",
+                "courses"
+            ],
+            "responses": [
+                "For college-related questions, please check the official college website or contact the admission office.",
+                "I can answer basic college FAQ questions if they are added to my intent dataset."
+            ]
+        },
+        {
+            "tag": "programming",
+            "patterns": [
+                "python",
+                "programming",
+                "coding",
+                "code"
+            ],
+            "responses": [
+                "Python is a beginner-friendly programming language.",
+                "Programming is the process of giving instructions to a computer using code."
+            ]
+        },
+        {
+            "tag": "fallback",
+            "patterns": [],
+            "responses": [
+                "Sorry, I didn't understand that. Please try again.",
+                "I am not sure what you mean. Can you ask in another way?"
+            ]
+        }
+    ]
+}
